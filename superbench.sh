@@ -584,7 +584,7 @@ get_system_info() {
 }
 
 print_intro() {
-	printf ' Superbench.sh -- https://www.oldking.net/350.html\n' | tee -a $log
+	printf ' Superbench.sh -- https://blog.haggek.com\n' | tee -a $log
 	printf " Mode  : \e${GREEN}%s\e${PLAIN}    Version : \e${GREEN}%s${PLAIN}\n" $mode_name 1.1.1 | tee -a $log
 	printf ' Usage : wget -qO- git.io/superbench.sh | bash\n' | tee -a $log
 }
